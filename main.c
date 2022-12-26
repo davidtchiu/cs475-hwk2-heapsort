@@ -2,7 +2,7 @@
 #include "employee.h"
 #include "heap.h"
 
-int main()
+int main(int argc, char *argv[])
 {
 	//TODO
 	

@@ -1,6 +1,6 @@
-void heapSort(struct Employee *A, int n);
-void buildHeap(struct Employee *A, int n);
-void heapify(struct Employee *A, int i, int n);
-void swap(struct Employee *A, struct Employee *b);
-void printList(struct Employee *A, int n);
-void reverse(struct Employee *A, int start, int end);
+void heapSort(Employee *A, int n);
+void buildHeap(Employee *A, int n);
+void heapify(Employee *A, int i, int heapn);
+void swap(Employee *A, Employee *b);
+void printList(Employee *A, int n);
+void reverse( Employee *A, int start, int end);
